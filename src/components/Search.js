@@ -1,5 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
-import Filter from './Filter';
+import React from "react";
 
 const Search = ({title, handleChange}) => {
   return (

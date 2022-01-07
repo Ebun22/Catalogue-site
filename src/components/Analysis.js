@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
+import React from "react";
 import 'chart.js/auto';
 import { Pie } from 'react-chartjs-2';
 

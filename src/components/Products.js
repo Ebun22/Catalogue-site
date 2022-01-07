@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
+import React, {useState, useEffect } from "react";
 import '../index.css';
 import ProductCard from './ProductCard';
 import Filter from './Filter';
@@ -17,7 +17,10 @@ const Products = () => {
 
   function fetchProducts() {
     axios.get(url)
-      .then(response => (setData(response.data), console.log(response)))
+      .then(response => {(
+        setData(response.data),
+        console.log(response)
+        )})
       .catch(error => console.log(error))
   }
 
